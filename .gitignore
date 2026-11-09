@@ -1,0 +1,40 @@
+# ============================================================================
+# SCRIPTS DE NODE Y DEPENDENCIAS RAÍZ (Universidad/)
+# ============================================================================
+node_modules/
+/package.json
+/package-lock.json
+/pnpm-lock.yaml
+/yarn.lock
+
+# ============================================================================
+# SUPABASE CLI (supabase/)
+# ============================================================================
+# Carpetas temporales y ramas locales del CLI
+supabase/.temp/
+supabase/.branches/
+
+# Consultas guardadas localmente en el SQL Editor de Supabase Studio
+supabase/snippets/
+
+# Respaldos y volcados locales
+*.dump
+*.backup
+*.sql.bak
+dump.sql
+
+# ============================================================================
+# VARIABLES DE ENTORNO Y SECRETOS
+# ============================================================================
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ============================================================================
+# SISTEMA OPERATIVO Y EDITORES
+# ============================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
